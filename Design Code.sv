@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
  
-module clk_gen(
+module clk_gen( // define moudle 
 input clk, rst,
 input [16:0] baud,
 output reg tx_clk, rx_clk
